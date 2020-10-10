@@ -64,7 +64,7 @@
                     <div class="header__nav__option">
                         <a href="#"><img src="img/icon/user.png" alt=""></a>
                         <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
-                        <a href="checkout.html"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
+                        <a href="shopping-cart.html"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
                         <div class="price">$0.00</div>
                     </div>
                 </div>
@@ -94,7 +94,6 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="product-view.html">Product View</a>
                             <a class="dropdown-item" href="shopping-cart.html">Shopping Cart</a>
-                            <a class="dropdown-item" href="checkout.html">Checkout</a>
                             <a class="dropdown-item" href="#">Menu item 4</a>
                         </div>
                     </li>
@@ -126,129 +125,73 @@
     <section class="shopping-cart section-all">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
-                    <div class="shopping__cart__table">
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Product</th>
-                                    <th>Quantity</th>
-                                    <th>Total</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="product__cart__item">
-                                        <div class="product__cart__item__pic">
-                                            <img src="img/shopping-cart/cart-1.jpg" alt="">
-                                        </div>
-                                        <div class="product__cart__item__text">
-                                            <h6>T-shirt Contrast Pocket</h6>
-                                            <h5>$98.49</h5>
-                                        </div>
-                                    </td>
-                                    <td class="quantity__item">
-                                        <div class="quantity">
-                                            <div class="pro-qty-2">
-                                                <input type="text" value="1">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="cart__price">$ 30.00</td>
-                                    <td class="cart__close"><i class="fa fa-close"></i></td>
-                                </tr>
-                                <tr>
-                                    <td class="product__cart__item">
-                                        <div class="product__cart__item__pic">
-                                            <img src="img/shopping-cart/cart-2.jpg" alt="">
-                                        </div>
-                                        <div class="product__cart__item__text">
-                                            <h6>Diagonal Textured Cap</h6>
-                                            <h5>$98.49</h5>
-                                        </div>
-                                    </td>
-                                    <td class="quantity__item">
-                                        <div class="quantity">
-                                            <div class="pro-qty-2">
-                                                <input type="text" value="1">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="cart__price">$ 32.50</td>
-                                    <td class="cart__close"><i class="fa fa-close"></i></td>
-                                </tr>
-                                <tr>
-                                    <td class="product__cart__item">
-                                        <div class="product__cart__item__pic">
-                                            <img src="img/shopping-cart/cart-3.jpg" alt="">
-                                        </div>
-                                        <div class="product__cart__item__text">
-                                            <h6>Basic Flowing Scarf</h6>
-                                            <h5>$98.49</h5>
-                                        </div>
-                                    </td>
-                                    <td class="quantity__item">
-                                        <div class="quantity">
-                                            <div class="pro-qty-2">
-                                                <input type="text" value="1">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="cart__price">$ 47.00</td>
-                                    <td class="cart__close"><i class="fa fa-close"></i></td>
-                                </tr>
-                                <tr>
-                                    <td class="product__cart__item">
-                                        <div class="product__cart__item__pic">
-                                            <img src="img/shopping-cart/cart-4.jpg" alt="">
-                                        </div>
-                                        <div class="product__cart__item__text">
-                                            <h6>Basic Flowing Scarf</h6>
-                                            <h5>$98.49</h5>
-                                        </div>
-                                    </td>
-                                    <td class="quantity__item">
-                                        <div class="quantity">
-                                            <div class="pro-qty-2">
-                                                <input type="text" value="1">
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="cart__price">$ 30.00</td>
-                                    <td class="cart__close"><i class="fa fa-close"></i></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class="continue__btn">
-                                <a href="#">Continue Shopping</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                            <div class=" update__btn">
-                                <a href="#"><i class="fa fa-spinner"></i> Update cart</a>
-                            </div>
-                        </div>
+                <div class="col-lg-4">
+                    <h3 class="shopping__cart__heading">1. ORDER</h3>
+                    <div class="shopping__cart__order">
+
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="cart__discount">
-                        <h6>Discount codes</h6>
-                        <form action="#">
-                            <input type="text" placeholder="Coupon code">
-                            <button type="submit">Apply</button>
-                        </form>
+                    <h3 class="shopping__cart__heading">2. PAYMENT & SHIPPING </h3>
+                    <div class="shopping__cart__payment">
+
                     </div>
-                    <div class="cart__total">
-                        <h6>Cart total</h6>
-                        <ul>
-                            <li>Subtotal <span>$ 169.50</span></li>
-                            <li>Total <span>$ 169.50</span></li>
-                        </ul>
-                        <a href="checkout.html" class="btn__checkout primary-btn">Proceed to checkout</a>
+                </div>
+                <div class="col-lg-4 checkout__form">
+                    <h3 class="shopping__cart__heading">3. ADDRESS</h3>
+                    <div class="shopping__cart__checkout">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5 class="checkout__title">Billing Details</h5>
+                                    <span class="checkout__subtitle">The Address should be in Nepal</span>
+
+                                    <div class="checkout__input">
+                                        <input type="email" placeholder="Email address">
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="text" placeholder="Postal code">
+                                    </div>
+                                    <div class="row dual__col ">
+                                        <div class="col-lg-6 col__first">
+                                            <div class="checkout__input bottom__border__none">
+                                                <input type="text" placeholder="First Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col__last">
+                                            <div class="checkout__input bottom__border__none">
+                                                <input type="text" placeholder="Last Name" style="border-left: none;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="text" placeholder="Address">
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="text" placeholder="Apartment, suite, unite ect (optinal)">
+                                    </div>
+
+                                    <div class="row dual__col">
+                                        <div class="col-lg-6 col__first">
+                                            <div class="checkout__input bottom__border__none">
+                                                <input type="text" placeholder="City">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col__last">
+                                            <div class="checkout__input bottom__border__none">
+                                                <input type="text" placeholder="Region" style="border-left: none;">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="checkout__input">
+                                        <input type="text" placeholder="Mobile phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn__submit">
+                                <input type="button" value="Submit">
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
