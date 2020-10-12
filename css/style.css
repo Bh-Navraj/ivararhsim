@@ -262,11 +262,36 @@ ol {
   width: 100%;
 }
 
+/* cloasable div */
+.ShowHide {
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #844932;
+  color: #ffffff;
+  padding: 4px;
+}
+#left {
+  overflow: hidden;
+  text-align: center;
+  height: 20px;
+}
+#right {
+  float: right;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+}
+.ShowHide a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.ShowHide a:hover {
+  text-decoration: underline;
+}
 /*---------------------
   Header
 -----------------------*/
 .hero__items {
-  /* margin-top: 55px; */
   height: calc(100vh - 55px);
 }
 
@@ -484,6 +509,7 @@ ol {
 
 .price {
   color: #111111;
+  font-size: 18px;
 }
 
 .nav__link__item {
@@ -493,6 +519,8 @@ ol {
 .header__nav__link.navbar-brand {
   margin-right: 0;
 }
+
+
 
 @media all and (min-width: 768px) {
   .nav__link__item {
@@ -536,9 +564,6 @@ ol {
 }
 
 @media only screen and (max-width: 768px) {
-  .header {
-    padding-top: 10px;
-  }
   .padding__zero__small {
     padding-left: 0;
     padding-right: 0;

@@ -23,6 +23,14 @@
     <!-- Header Section Begin -->
     <header class="header">
         <div class="container-fluid">
+            <div class="ShowHide" id="Bar">
+                <div id="right">
+                    <a href="#" onclick="Hide(Bar);">X</a>
+                </div>
+                <div id="left">
+                    <a href="#">Your announcement Here.</a>
+                </div>
+            </div>
             <!-- navigation starts here  -->
             <nav id="customNav" class="navbar navbar-expand-lg navbar navbar-light custom-nav customNav navbar-inverse"
                 data-toggle="affix">
@@ -879,10 +887,14 @@
                 </div>
 
                 <div class="header__nav__link navbar-brand order-2">
-                    <a class="nav__link__item" href="account.html"><img src="img/icon/user.png" alt=""></a>
-                    <a class="nav__link__item" href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
+                    <a class="nav__link__item search-switch" href="#">
+                        <img src="img/icon/search.svg" alt="">
+                    </a>
+                    <a class="nav__link__item" href="account.html">
+                        <img src="img/icon/user.svg" alt="">
+                    </a>
                     <a class="nav__link__item" href="shopping-cart.html">
-                        <img src="img/icon/cart.png" alt="">
+                        <img src="img/icon/cart.svg" alt="">
                         <span class="price">$0.00</span>
                     </a>
                 </div>
