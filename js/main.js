@@ -68,6 +68,7 @@
         navText: ["<i class='fa fa-chevron-left previous' aria-hidden='true'></i>", "<i class='fa fa-chevron-right next' aria-hidden='true'></i>"],
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
+        autoplayTimeout:8000,
         smartSpeed: 500,
         autoHeight: false,
         autoplay: true
