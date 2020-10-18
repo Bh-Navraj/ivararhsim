@@ -83,7 +83,9 @@ ol {
 .section-all {
   padding: 50px 0;
 }
-
+.container {
+  position: relative;
+}
 .container-fluid {
   margin-left: 0;
   margin-right: 0;
@@ -898,7 +900,7 @@ ol {
     max-width: 300px;
     position: absolute;
     right: 0;
-    top: 180px;
+    top: 250px;
   }
 
   .banner__item__text h2 {
